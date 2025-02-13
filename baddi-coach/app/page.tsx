@@ -2,10 +2,10 @@ import { NavBar } from "@/components/nav-bar"
 import { FeatureScroll } from "@/components/feature-scroll"
 import { ImageScroll } from "@/components/image-scroll"
 import { Button } from "@/components/ui/button"
-import { Play } from 'lucide-react'
+import { Play, MessageCircle } from 'lucide-react'
 import Image from "next/image"
 import { FeatureBox } from "@/components/feature-box"
-
+import { ChatButton } from "@/components/chat-button"
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#FDF8F5]">
@@ -159,6 +159,8 @@ export default function Home() {
           </p>
         </section>
       </main>
+
+      <ChatButton />
     </div>
   )
 }
