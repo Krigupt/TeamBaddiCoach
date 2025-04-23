@@ -27,6 +27,6 @@ yarn-error.log*
 next-env.d.ts
 
 .venv
-/Users/krishnagupta/Desktop/TeamBaddiCoach/baddi-coach/backend/pose_estimation_files/poses_images_out_test
-/Users/krishnagupta/Desktop/TeamBaddiCoach/baddi-coach/backend/pose_estimation_files/poses_images_out_train
-/Users/krishnagupta/Desktop/TeamBaddiCoach/baddi-coach/backend/pose_estimation_files/pose_estimation_meta_data
+/backend/pose_estimation_files/pose_estimation_meta_data/
+/backend/pose_estimation_files/poses_images_out_test/
+/backend/pose_estimation_files/poses_images_out_train/
